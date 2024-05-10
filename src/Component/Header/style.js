@@ -16,18 +16,6 @@ export const HeaderStyle = styled.div`
             .col-line{
                 opacity: 0;
                 padding-top: 4px;
-                /* .line-1{
-                    width: 20px;
-                    height: 2px;
-                    background-color: #0a84ff;
-                    margin-bottom: 6px;
-                    margin-top: 10px;
-                }
-                .line-2{
-                    width: 20px;
-                    height: 2px;
-                    background-color: #0a84ff;
-                } */
             }
             .col-link {
                 div.link {

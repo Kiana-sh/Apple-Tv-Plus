@@ -12,8 +12,12 @@ const items = [
         key: '0',
     },
     {
-        label: <Link to={`/search`}>Search</Link>,
+        label: <div>MLS Season Pass</div>,
         key: '1',
+    },
+    {
+        label: <Link to={`/search`}>Search</Link>,
+        key: '2',
     },
 ];
 const dropMenu = () => (
@@ -25,8 +29,6 @@ const dropMenu = () => (
     >
     <a onClick={(e) => e.preventDefault()}>
       <Space style={{color: "#0a84ff"}}>
-        {/* <div className="line-1"></div>
-        <div className="line-2"></div> */}
         Menu
         <DownOutlined />
       </Space>
